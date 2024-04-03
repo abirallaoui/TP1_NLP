@@ -1,0 +1,103 @@
+version: "3.1"
+
+stories:
+
+- story: Greet and offer help
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: offer_help
+  - action: utter_offer_help
+
+- story: Goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: qui est tu
+  steps:
+  - intent: tuesqui
+  - action: utter_tuesqui
+
+- story: Restaurant information inquiry
+  steps:
+  - intent: ask_restaurant_information
+  - action: utter_restaurant_information
+
+- story: prix reservation
+  steps:
+  - intent: prix_reservation
+  - action: utter_prix_reservation
+
+
+- story: User remercie
+  steps:
+    - intent: remerciement
+    - action: utter_remerciement
+
+- story: User wants to make a reservation
+  steps:
+  - intent: demander_reservation
+  - action: utter_demander_nom_reservation
+  - intent: inform_name
+  - action: action_set_reservation_name
+  - slot_was_set:
+    - nom_reservation: "Samir"
+  - action: utter_demander_nombre_personnes
+  - intent: inform_nombre_personnes
+  - action: action_set_number_of_people
+  - slot_was_set:
+    - nombre_personnes: "2"
+  - action: utter_demander_date
+  - intent: inform_date
+  - action: action_set_date
+  - slot_was_set:
+     - date: "samedi"
+  - action: utter_demander_heure
+  - intent: inform_time
+  - action: action_set_time
+  - slot_was_set:
+    - heure: "19h"
+  - action: utter_demande_de_confirmation
+  - intent: affirmer
+  #- action: utter_confirmation_reservation
+  - action: action_make_reservation
+
+  
+- story: User does not confirm reservation
+  steps:
+  - intent: demander_reservation
+  - action: utter_demander_nom_reservation
+  - intent: inform_name
+  - action: action_set_reservation_name
+  - slot_was_set:
+    - nom_reservation: "Samir"
+  - action: utter_demander_nombre_personnes
+  - intent: inform_nombre_personnes
+  - action: action_set_number_of_people
+  - slot_was_set:
+    - nombre_personnes: "2"
+  - action: utter_demander_date
+  - intent: inform_date
+  - action: action_set_date
+  - slot_was_set:
+    - date: "samedi"
+  - action: utter_demander_heure
+  - intent: inform_time
+  - action: action_set_time
+  - slot_was_set:
+    - heure: "19h"
+  - action: utter_demande_de_confirmation
+  - intent: nier
+  - action: utter_annulation_temporaire 
+
+- story: User wants to cancel a reservation
+  steps:
+  - intent: annuler_reservation
+  - action: action_ask_reservation_name
+  - intent: inform_name
+  - action: action_set_reservation_name
+  - slot_was_set:
+    - nom_reservation: "John"
+  - action: utter_confirmer_annulation
+  - action: utter_annulation_confirmation

@@ -1,0 +1,100 @@
+version: "3.1"
+
+intents:
+  - greet
+  - offer_help
+  - goodbye
+  - tuesqui
+  - ask_restaurant_information
+  - prix_reservation
+  - inform_name
+  - demander_reservation
+  - inform_date
+  - inform_nombre_personnes
+  - inform_time
+  - annuler_reservation
+  - affirmer
+  - nier
+  - remerciement
+  
+
+entities:
+  - nom_reservation
+  - nombre_personnes
+  - date
+  - heure
+
+slots:
+  nom_reservation:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: nom_reservation
+  nombre_personnes:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: nombre_personnes
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+  heure:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: heure
+
+responses:
+  utter_greet:
+    - text: "Bonjour ! Comment puis-je vous aider aujourd'hui ?"
+  utter_offer_help:
+    - text: "Bien sûr, je suis là pour vous aider. Que puis-je faire pour vous ?"
+  utter_goodbye:
+    - text: "Au revoir ! N'hésitez pas à revenir si vous avez besoin d'aide."
+  utter_restaurant_information:
+    - text: "Bienvenue chez Rwa7KOOL, un restaurant proposant une cuisine marocaine délicieuse. Nous sommes ouverts de 12h00 à 22h00 du lundi au dimanche. Vous nous trouverez au boulevard Takadoum ,près du mosquée Arrahma ,OUJDA."
+  utter_prix_reservation:
+    - text: "Nos formules déjeuner sont à 150MAD par personne et nos formules dîner à 250MAD."
+  utter_tuesqui:
+    - text: "Je suis un chatbot conçu pour vous aider à répondre à vos questions et à vous fournir des informations utiles. Bien que je ne sois pas une personne réelle, je suis programmé pour comprendre vos requêtes et vous offrir les meilleures réponses possibles. N'hésitez pas à me poser des questions sur un large éventail de sujets, et je ferai de mon mieux pour vous aider !"
+  utter_demander_nom_reservation:
+    - text: "Quel est le nom de votre réservation ?"
+  utter_demander_nombre_personnes:
+    - text: "Combien de personnes seront présentes ?"
+  utter_demander_date:
+    - text: "Pour quelle date souhaitez-vous réserver ?"
+  utter_demander_heure:
+    - text: "A quelle heure souhaitez-vous réserver ?"
+  utter_confirmation_reservation:
+    - text: "Je confirme votre réservation : {nom_reservation} pour {nombre_personnes} personnes le {date} à {heure} heures."
+  utter_confirmer_annulation:
+    - text: "Je confirme l'annulation de votre réservation au nom de : {nom_reservation}."
+  utter_reservation_confirmation:
+    - text: "Votre réservation a bien été prise en compte. Vous pourrez bientôt profiter d'un délicieux repas parmi nous !"
+  utter_annulation_confirmation:
+    - text: "Votre réservation a bien été annulée."
+  utter_demande_de_confirmation:
+    - text: "Êtes-vous sûr de vouloir confirmer cette reservationn ? Veuillez confirmer en répondant par 'oui' ou 'non'."
+  utter_annulation_temporaire:
+    - text: "Votre demande d'annulation a été prise en compte.. Nous espérons avoir le plaisir de vous accueillir une autre fois très prochainement. N'hésitez pas à nous contacter pour toute autre demande. "
+  utter_remerciement:
+    - text: "De rien ! C'est un plaisir de vous aider."
+    
+
+actions:
+  - action_ask_reservation_name
+  - action_set_reservation_name
+  - action_ask_number_of_people
+  - action_set_number_of_people
+  - action_ask_date
+  - action_set_date
+  - action_ask_time
+  - action_set_time
+  - action_make_reservation
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

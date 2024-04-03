@@ -1,0 +1,185 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - bonjour
+    - salut
+    - hey
+    - coucou
+    - bonsoir
+    - hey
+    - hello
+    - hi
+    - salam
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: offer_help
+  examples: |
+    - de l'aide ?
+    - j'ai besoin d'aide 
+    - pouvez vous m'aider ?
+  
+- intent: tuesqui
+  examples: |
+    - vous etes qui
+    - c'est quoi votre nom 
+    - vous êtes qui
+    - qui es-tu
+    - pouvez-vous me dire qui vous êtes
+    - comment vous appelez-vous
+    - quel est votre nom
+    - quel est le nom de votre chatbot
+    - à qui ai-je affaire
+    - quel est votre identité
+    - pourriez-vous vous présenter
+    - je veux en savoir plus sur vous
+    - d'où venez-vous
+    - quel est votre rôle
+    - vous êtes un robot ou une personne réelle
+    - êtes-vous un assistant virtuel
+    - qu'est-ce que vous faites
+    - pourquoi êtes-vous ici
+    - pouvez-vous me parler de vous
+
+- intent: ask_restaurant_information
+  examples: |
+    - Quelles sont les informations sur le restaurant ?
+    - Pouvez-vous me dire quelque chose sur le restaurant ?
+    - Où est situé le restaurant ?
+    - Quels sont les horaires du restaurant ?
+    - Quels sont vos horaires d'ouverture ?
+    - Quel type de cuisine proposez-vous ?
+    
+- intent: demander_reservation
+  examples: |
+    - Je voudrais réserver une table
+    - Réserver une table
+    - Réservation pour ce soir
+    - J'aimerais dîner ce soir
+    - Avez-vous des tables disponibles ?
+    - J'aimerais faire une réservation pour le restaurant
+    - Pourriez-vous me réserver une table s'il vous plait ?
+    - Réservation d'une table svp
+
+- intent: goodbye
+  examples: |
+    - au revoir
+    - à bientôt
+    - bonne journée
+    - ciao
+    - à la prochaine
+    - adieu
+    - à plus tard
+    - à tout à l'heure
+    - prends soin de toi
+    - bye bye
+    - à demain
+    - passe une bonne journée
+    - à la prochaine fois
+    - à la semaine prochaine
+    - à la prochaine fois
+
+- intent: inform_name
+  examples: |
+    - [abir allaoui](nom_reservation)  
+    - le nom est [samir allaoui](nom_reservation)
+    - [Mohammed](nom_reservation)
+    - [maroua](nom_reservation)
+    - [Siham Amari](nom_reservation)
+    - La réservation sera au nom de [alae allaoui](nom_reservation)
+    - Pouvez-vous réserver pour la famille [Ezitouni](nom_reservation)
+    - Mettez la réservation sous le nom [Saad](nom_reservation)
+
+- intent: inform_nombre_personnes
+  examples: |
+    - [3]personnes(nombre_personnes)
+    - [1]personne(nombre_personnes)
+    - [2]personnes(nombre_personnes)
+    - [4 personnes](nombre_personnes)
+    - Je voudrais réserver une table pour [5]personnes(nombre_personnes)
+    - Pourriez-vous réserver une table pour [3]personnes(nombre_personnes)
+    - Je souhaite faire une réservation pour [2]personnes(nombre_personnes)
+    - Réservation pour [5]personnes(nombre_personnes)
+    - J'ai besoin d'une table pour [4]personnes(nombre_personnes)
+    - Je voudrais réserver pour [4]personnes(nombre_personnes)
+    - La réservation est pour [2]personnes(nombre_personnes)
+    - Nous serons un groupe de [8](nombre_personnes)
+
+- intent: inform_date
+  examples: |
+    - [mardi](date)
+    - [lundi](date)
+    - [samedi](date)
+    - le [10 avril](date)
+    - le [vendredi](date)
+    - le [jeudi 2 mai](date)
+    - le [25 avril](date)
+    - le [15 mars](date)
+    - Je voudrais réserver pour le [15 mai](date)
+    - La réservation doit être pour [samedi prochain](date)
+    - Pouvez-vous me réserver une table pour le [3 juin](date)
+
+- intent: inform_time
+  examples: |
+    - [20 pm](heure)
+    - [13 pm](heure)
+    - à [19h](heure)
+    - [18h](heure)
+    - [19h30](heure)
+    - à [20h](heure)
+    - Je voudrais réserver pour [19h30](heure)
+    - La réservation doit être pour [12h](heure)
+    - Pouvez-vous me donner une table pour [20h](heure)
+
+
+- intent: prix_reservation
+  examples: |
+    - Quels sont vos tarifs pour la réservation d'une table ?
+    - Combien cela coûte pour réserver ?
+    - Pourriez-vous me donner les prix des réservations ?
+    - Pouvez-vous me donner une idée des tarifs de réservation ?
+    - J'aimerais savoir combien cela coûte pour réserver une table.
+    - Quels sont les frais de réservation ?
+    - À quel prix puis-je réserver une table ?
+    - Pourriez-vous me fournir des informations sur les tarifs de réservation ?
+
+- intent: annuler_reservation
+  examples: |
+    - Je voudrais annuler ma réservation
+    - Annuler ma réservation
+    - Je ne pourrai pas venir, pouvez-vous annuler ma réservation ?
+    - Annulez ma réservation, s'il vous plaît
+    - Je dois annuler ma réservation 
+    - Annulation de réservation svp
+    - Pourriez-vous annuler ma réservation de ce soir ?
+
+
+- intent: affirmer
+  examples: |
+    - oui
+    - d'accord
+    - ok
+    - confirmer
+
+- intent: nier  
+  examples: |
+    - non
+    - annuler
+    - pas maintenant
+
+- intent: remerciement
+  examples: |
+    - merci
+    - merci beaucoup
+    - merci pour votre aide
+    - je vous remercie
+

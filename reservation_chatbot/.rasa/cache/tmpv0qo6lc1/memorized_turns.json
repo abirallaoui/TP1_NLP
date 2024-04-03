@@ -1,0 +1,28 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAV+WlpQAsyUnMKamtjATviUG4=": "utter_offer_help",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAV+WlpQAsyUnMKiHMKknq8ZsUCAHHSbYY=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BCidl1eak1oUX5QKFC9LBKmtrY0FAJafIXQ=": "utter_demander_annulation_reservation_nom",
+    "eJyNjjsOgCAQRK/CAYzRlqsYQ4huQQKLgcWGeHfHT0Gn3czOzMtO9ehU3RLtxi7iImtVH2HYBtLqNd5lIUa3ZEroOIYVxMzFUzKJcN/t1T0+iEUEg5WC5RXiJtzDFmI4BnCyj5IBgGtTraaxH+af78wn0OlYvw==": "utter_confirm_cancel",
+    "eJytjrEKwzAMRH/FH1BKu/pXQhDCUcFgn4stZzH596pJh2xdsul0d0+axnZz411lJQ4aC7wbx0DgLN79RIpNBZbtTaplIkyq2UBPUqmK7Vf+Zrc/xK5qhUUyY7FhJ+zFM4RQsnFaKtoMYOrsejc974/5wndCwSvWTIERJF11ef4AMKSHKw==": "utter_annulation_confirmation",
+    "eJy9jzEKwzAMRa/iA5TSrr5KCEI4KhhsuchyFpO7V00yeOsSuulb/z99T327uf4WWgGDxsLe9WMAxkzenSLFqsTmbZXEPJFNqq2ZWyIBIXtf8evdfhCbqgUWysiLDTthD44Q4JKNU1PRagBT49a76Xl/zBfWCYVfUTIE5EDpn5eH/58ljvBFFeYPUIC5hQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTU3MS8ltSi+KBUoUZYIUlxbGwsAtdwhvw==": "utter_demander_nom_reservation",
+    "eJyNjkEKgCAQRa8yB5CorVcJEalZCDmGjm6kuzdRBLWp3Xz+e58Z26agrQmrdRP7SBraeVhyATVcYfGZkYQtGZMwniSyhhmDoxmTTShFdQe8fUwWZhFuk2J42AryEjmL9Wo0jEPXm79PmB2O5FS9": "utter_demander_nombre_personnes",
+    "eJy1jkEKwzAMBL+iB5jSXv2VEIzb7MEQy0FScgn5e1UaCs0l9NCblp0R261boHUSLCk/rDSOtL6PxLki0h7GogZ2dlaIM4U9WqQBNfMASQIvlvyCt5OXs5kLH5Nb/bID6dhM3To0kbrb5dr/a8RdkCaINmbo6YpAR+XHef0TBu6Qyw==": "utter_demander_date",
+    "eJy1jjEKwzAMRa+iA5jSrr5KCMatNRhiOUhKFpO7V6GlpFkyedPn/yfe0DYHbWZcQ3xpruShfY5AsaCHb5iyKJJtF0G2TSaL6iFhiZSQA6MVa9zH28XLRdWAH0m1/NEOZKoqRp0aD8Pjdh97STwZw4wslQjl0sLBGempl6LiQWmPR48efuMb2Z7LQw==": "utter_demander_heure",
+    "eJzFjkEKwjAQRa8yBwii21yllBDNgIFmUmYm3YTe3VRFakG6Ku7m8/8bXldnA3VknJy/acxkob4ORz6hhXcYoihS2xZBbptILaqFgMlTQHaMrZj8Mp53XhbVBnxIyumLNiBDVmnUprHQXU7n/iiJK6MbkSUToexaGNgiR+oFr7hSWuLa4+9+dyz8U/BZHq3bPwBiUApL": "utter_confirmation_reservation",
+    "eJzNkkEKgzAQRa8yBwil3eYqIiE1UxowE5lM3Ih3b7SlWEFc2XaXz/8vvMVUw6hg6Bh7YxvxkTQMz4chG1DDK7Q+CVLZ5oRcNp5KFA0OgyWHbBhL0dtpPO58mUUK8CYphg9aQWqjpEKtGg3V5XSuj5K4MpoOOUUiTLsWCtbIkXrOCi6Uprj0+LnfHTNvCs7lP+g2kW6ew0xsnNz3xesHYM1Npg==": "utter_reservation_confirmation",
+    "eJzNkkEKgzAQRa8yB5DSbnMVkZCaKQ2YiUxGN8G7N9pSVBBXort8/n/hBVKmoYDUMvba1OICKUjfgybjUcEvNC4KUt52ETlvHOUoCix6QxZZM+aiN+N42LmyE8nAn6TgF3QBsQkSM7VqFJSP2706SuLJqFvkGIgw7loUsEaO1LNGcKY0xrnH6X5v7HhTcCqvoFsHejn2E7Hx5a4pPgMWjzhVvPoAD+mRAQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhpDS1uLA0s7Y2FgAjIRx+": "utter_tuesqui",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhpDS1uLA0s5aAKaUlJalF8TDFuE2JBQCelzeC": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhoCizIr4oFShYlghSWFsbCwA1FyBC": "utter_prix_reservation",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhoCizIr4oFShYlghSWEvAuNKSktSieAxdRJgbCwAyRELO": "action_listen",
+    "eJwti9EJgDAMBVfpAE7QVURCkAhBm5Yk9ad0dyP69453t465pNGUbsDduUpO4xsgWCinHy42Jwm3G2k4LIEet52gZI5dURxYjqoF32TO7QGLDSRa": "utter_restaurant_information",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1flFpcklhalJhXEp+Zl5ZflJsI0lJLwODSkpLUIlx6SbInFgCYUE14": "action_listen"
+  }
+}
